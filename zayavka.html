@@ -1,0 +1,45 @@
+<!-- zayavka.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- шапка сайта -->
+    <header class="AuthRegistr">
+        <h1>Мой Не Сам</h1> 
+    </header>
+
+    <!-- основаня инфа по сайту -->
+    <main class="forms">
+        <form action="registr.php" method="POST">
+            <input type="text" placeholder="Введи Адрес" required>
+            <input type="text" placeholder="Введи Контактные данные" required minlength="6"> 
+            <input type="date" placeholder="Введи дата" required>
+            <input type="time" placeholder="Введи время" required>
+            <select name="" id="" >
+                <option value="" disabled> Вид услуги</option>
+                <option value="">общий клининг</option>
+                <option value="">генеральная уборка</option>
+                <option value="">послестроительная уборка</option>
+            </select>
+            <select name="" id="" >
+                <option value="" disabled>Оплата</option>
+                <option value="">Налик</option>
+                <option value="">карта</option>
+            </select>
+            
+            <input type="submit" value="Отправить"/> <br>
+            <a href="index.html">Есть аккаунт? Войти</a>
+        </form>
+    </main>
+
+    <!-- футер сайта -->
+    <footer>
+        Сайт был разработан и ваше ФИО 
+    </footer>
+</body>
+</html>
